@@ -52,6 +52,11 @@ jobs:
       - name: Revert project to compile storyboard (for this CI run)
         run: python3 scripts/revert-to-storyboard.py "${{ steps.project.outputs.pbxproj }}"
 
+      - name: Downgrade project format for Xcode 15 (77 → 56)
+        run: |
+          sed -i.bak 's/objectVersion = 77/objectVersion = 56/' "${{ steps.project.outputs.pbxproj }}"
+          rm -f "${{ steps.project.outputs.pbxproj }}.bak"
+
       - name: Build WatchKit App (compiles storyboard)
         env:
           PROJECT_DIR: ${{ steps.project.outputs.project_dir }}
