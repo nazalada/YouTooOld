@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'YouTooOld WatchKit App' in project 'YouTooOld'
+➜ Explicit dependency on target 'YouTooOld WatchKit Extension' in project 'YouTooOld'
+Target 'YouTooOld WatchKit Extension' in project 'YouTooOld' (no dependencies)

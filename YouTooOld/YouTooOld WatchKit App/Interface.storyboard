@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="21701" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-1s-1a2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!-- Home -->
+        <scene sceneID="s3h-1s-1a2">
+            <objects>
+                <interfaceController id="AgC-1s-1a2" customClass="HomeController" customModule="YouTooOld_WatchKit_Extension" customModuleProvider="target" storyboardIdentifier="HomeController">
+                    <items>
+                        <label key="titleLabel" text="YouTooOld" textAlignment="center"/>
+                        <button key="searchBtn" title="🔍 Search"/>
+                        <button key="trendingBtn" title="🔥 Trending"/>
+                        <button key="popularBtn" title="⭐ Popular"/>
+                        <button key="settingsBtn" title="⚙ Settings"/>
+                    </items>
+                </interfaceController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z1o-2s-2a2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0" y="0"/>
+        </scene>
+        <!-- Search -->
+        <scene sceneID="Sch-3s-2a2">
+            <objects>
+                <interfaceController id="Sch-3s-2a2" customClass="SearchController" customModule="YouTooOld_WatchKit_Extension" customModuleProvider="target" storyboardIdentifier="SearchController">
+                    <items>
+                        <label key="promptLabel" text="Search YouTube"/>
+                    </items>
+                </interfaceController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S1r-3s-2a2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="200" y="0"/>
+        </scene>
+        <!-- Video List -->
+        <scene sceneID="Vid-4s-2a2">
+            <objects>
+                <interfaceController id="Vid-4s-2a2" customClass="VideoListController" customModule="YouTooOld_WatchKit_Extension" customModuleProvider="target" storyboardIdentifier="VideoListController">
+                    <items>
+                        <table key="table" rowType="VideoRowController" numberOfRows="0"/>
+                        <button key="loadMoreBtn" title="Load More"/>
+                    </items>
+                </interfaceController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V1d-4s-2a2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="400" y="0"/>
+        </scene>
+        <!-- Video Detail -->
+        <scene sceneID="Det-5s-2a2">
+            <objects>
+                <interfaceController id="Det-5s-2a2" customClass="VideoDetailController" customModule="YouTooOld_WatchKit_Extension" customModuleProvider="target" storyboardIdentifier="VideoDetailController">
+                    <items>
+                        <image key="thumbnailImage"/>
+                        <label key="titleLabel" text="Title"/>
+                        <label key="metaLabel" text="Channel • views"/>
+                        <button key="playBtn" title="▶ Play"/>
+                        <button key="playAudioBtn" title="▶ Play Audio Only"/>
+                    </items>
+                </interfaceController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D1t-5s-2a2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="600" y="0"/>
+        </scene>
+        <!-- Player -->
+        <scene sceneID="Ply-6s-2a2">
+            <objects>
+                <interfaceController id="Ply-6s-2a2" customClass="PlayerController" customModule="YouTooOld_WatchKit_Extension" customModuleProvider="target" storyboardIdentifier="PlayerController">
+                    <items>
+                        <movie key="moviePlayer" contentMode="aspectFit"/>
+                        <label key="titleLabel" text=""/>
+                        <button key="rewindBtn" title="−15"/>
+                        <button key="forwardBtn" title="+15"/>
+                        <button key="prevBtn" title="◀ Prev"/>
+                        <button key="nextBtn" title="Next ▶"/>
+                    </items>
+                </interfaceController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P1y-6s-2a2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="800" y="0"/>
+        </scene>
+        <!-- Settings -->
+        <scene sceneID="Set-7s-2a2">
+            <objects>
+                <interfaceController id="Set-7s-2a2" customClass="SettingsController" customModule="YouTooOld_WatchKit_Extension" customModuleProvider="target" storyboardIdentifier="SettingsController">
+                    <items>
+                        <picker key="qualityPicker"/>
+                        <picker key="instancePicker"/>
+                        <label key="memoryLabel" text="Memory: -- MB"/>
+                        <button key="clearCacheBtn" title="Clear Cache"/>
+                    </items>
+                </interfaceController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S1t-7s-2a2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1000" y="0"/>
+        </scene>
+    </scenes>
+</document>

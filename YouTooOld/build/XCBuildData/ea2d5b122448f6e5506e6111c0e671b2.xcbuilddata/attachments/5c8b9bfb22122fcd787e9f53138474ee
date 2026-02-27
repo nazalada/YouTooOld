@@ -1,0 +1,199 @@
+{
+  "" : {
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/YouTooOld WatchKit Extension-primary.dia",
+    "emit-module-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/YouTooOld WatchKit Extension-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/YouTooOld WatchKit Extension-primary-emit-module.dia",
+    "pch" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/YouTooOld WatchKit Extension-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/YouTooOld WatchKit Extension-primary.swiftdeps"
+  },
+  "/Users/naza.prod/Documents/YouTooOld/YouTooOld/YouTooOld WatchKit Extension/Controllers/HomeController.swift" : {
+    "const-values" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/HomeController.swiftconstvalues",
+    "dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/HomeController.d",
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/HomeController.dia",
+    "index-unit-output-path" : "/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/HomeController.o",
+    "llvm-bc" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/HomeController.bc",
+    "object" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/HomeController.o",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/HomeController.swiftdeps",
+    "swiftmodule" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/HomeController~partial.swiftmodule"
+  },
+  "/Users/naza.prod/Documents/YouTooOld/YouTooOld/YouTooOld WatchKit Extension/Controllers/PlayerController.swift" : {
+    "const-values" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/PlayerController.swiftconstvalues",
+    "dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/PlayerController.d",
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/PlayerController.dia",
+    "index-unit-output-path" : "/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/PlayerController.o",
+    "llvm-bc" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/PlayerController.bc",
+    "object" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/PlayerController.o",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/PlayerController.swiftdeps",
+    "swiftmodule" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/PlayerController~partial.swiftmodule"
+  },
+  "/Users/naza.prod/Documents/YouTooOld/YouTooOld/YouTooOld WatchKit Extension/Controllers/SearchController.swift" : {
+    "const-values" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SearchController.swiftconstvalues",
+    "dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SearchController.d",
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SearchController.dia",
+    "index-unit-output-path" : "/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SearchController.o",
+    "llvm-bc" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SearchController.bc",
+    "object" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SearchController.o",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SearchController.swiftdeps",
+    "swiftmodule" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SearchController~partial.swiftmodule"
+  },
+  "/Users/naza.prod/Documents/YouTooOld/YouTooOld/YouTooOld WatchKit Extension/Controllers/SettingsController.swift" : {
+    "const-values" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SettingsController.swiftconstvalues",
+    "dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SettingsController.d",
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SettingsController.dia",
+    "index-unit-output-path" : "/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SettingsController.o",
+    "llvm-bc" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SettingsController.bc",
+    "object" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SettingsController.o",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SettingsController.swiftdeps",
+    "swiftmodule" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SettingsController~partial.swiftmodule"
+  },
+  "/Users/naza.prod/Documents/YouTooOld/YouTooOld/YouTooOld WatchKit Extension/Controllers/VideoDetailController.swift" : {
+    "const-values" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoDetailController.swiftconstvalues",
+    "dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoDetailController.d",
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoDetailController.dia",
+    "index-unit-output-path" : "/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoDetailController.o",
+    "llvm-bc" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoDetailController.bc",
+    "object" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoDetailController.o",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoDetailController.swiftdeps",
+    "swiftmodule" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoDetailController~partial.swiftmodule"
+  },
+  "/Users/naza.prod/Documents/YouTooOld/YouTooOld/YouTooOld WatchKit Extension/Controllers/VideoListController.swift" : {
+    "const-values" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoListController.swiftconstvalues",
+    "dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoListController.d",
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoListController.dia",
+    "index-unit-output-path" : "/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoListController.o",
+    "llvm-bc" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoListController.bc",
+    "object" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoListController.o",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoListController.swiftdeps",
+    "swiftmodule" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoListController~partial.swiftmodule"
+  },
+  "/Users/naza.prod/Documents/YouTooOld/YouTooOld/YouTooOld WatchKit Extension/Controllers/VideoRowController.swift" : {
+    "const-values" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoRowController.swiftconstvalues",
+    "dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoRowController.d",
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoRowController.dia",
+    "index-unit-output-path" : "/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoRowController.o",
+    "llvm-bc" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoRowController.bc",
+    "object" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoRowController.o",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoRowController.swiftdeps",
+    "swiftmodule" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoRowController~partial.swiftmodule"
+  },
+  "/Users/naza.prod/Documents/YouTooOld/YouTooOld/YouTooOld WatchKit Extension/ExtensionDelegate.swift" : {
+    "const-values" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/ExtensionDelegate.swiftconstvalues",
+    "dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/ExtensionDelegate.d",
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/ExtensionDelegate.dia",
+    "index-unit-output-path" : "/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/ExtensionDelegate.o",
+    "llvm-bc" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/ExtensionDelegate.bc",
+    "object" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/ExtensionDelegate.o",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/ExtensionDelegate.swiftdeps",
+    "swiftmodule" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/ExtensionDelegate~partial.swiftmodule"
+  },
+  "/Users/naza.prod/Documents/YouTooOld/YouTooOld/YouTooOld WatchKit Extension/Helpers/Constants.swift" : {
+    "const-values" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/Constants.swiftconstvalues",
+    "dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/Constants.d",
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/Constants.dia",
+    "index-unit-output-path" : "/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/Constants.o",
+    "llvm-bc" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/Constants.bc",
+    "object" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/Constants.o",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/Constants.swiftdeps",
+    "swiftmodule" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/Constants~partial.swiftmodule"
+  },
+  "/Users/naza.prod/Documents/YouTooOld/YouTooOld/YouTooOld WatchKit Extension/Helpers/Extensions.swift" : {
+    "const-values" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/Extensions.swiftconstvalues",
+    "dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/Extensions.d",
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/Extensions.dia",
+    "index-unit-output-path" : "/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/Extensions.o",
+    "llvm-bc" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/Extensions.bc",
+    "object" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/Extensions.o",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/Extensions.swiftdeps",
+    "swiftmodule" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/Extensions~partial.swiftmodule"
+  },
+  "/Users/naza.prod/Documents/YouTooOld/YouTooOld/YouTooOld WatchKit Extension/Helpers/ImageLoader.swift" : {
+    "const-values" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/ImageLoader.swiftconstvalues",
+    "dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/ImageLoader.d",
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/ImageLoader.dia",
+    "index-unit-output-path" : "/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/ImageLoader.o",
+    "llvm-bc" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/ImageLoader.bc",
+    "object" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/ImageLoader.o",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/ImageLoader.swiftdeps",
+    "swiftmodule" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/ImageLoader~partial.swiftmodule"
+  },
+  "/Users/naza.prod/Documents/YouTooOld/YouTooOld/YouTooOld WatchKit Extension/Helpers/MemoryManager.swift" : {
+    "const-values" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/MemoryManager.swiftconstvalues",
+    "dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/MemoryManager.d",
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/MemoryManager.dia",
+    "index-unit-output-path" : "/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/MemoryManager.o",
+    "llvm-bc" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/MemoryManager.bc",
+    "object" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/MemoryManager.o",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/MemoryManager.swiftdeps",
+    "swiftmodule" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/MemoryManager~partial.swiftmodule"
+  },
+  "/Users/naza.prod/Documents/YouTooOld/YouTooOld/YouTooOld WatchKit Extension/Helpers/SettingsManager.swift" : {
+    "const-values" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SettingsManager.swiftconstvalues",
+    "dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SettingsManager.d",
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SettingsManager.dia",
+    "index-unit-output-path" : "/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SettingsManager.o",
+    "llvm-bc" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SettingsManager.bc",
+    "object" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SettingsManager.o",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SettingsManager.swiftdeps",
+    "swiftmodule" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SettingsManager~partial.swiftmodule"
+  },
+  "/Users/naza.prod/Documents/YouTooOld/YouTooOld/YouTooOld WatchKit Extension/Models/SearchResult.swift" : {
+    "const-values" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SearchResult.swiftconstvalues",
+    "dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SearchResult.d",
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SearchResult.dia",
+    "index-unit-output-path" : "/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SearchResult.o",
+    "llvm-bc" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SearchResult.bc",
+    "object" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SearchResult.o",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SearchResult.swiftdeps",
+    "swiftmodule" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/SearchResult~partial.swiftmodule"
+  },
+  "/Users/naza.prod/Documents/YouTooOld/YouTooOld/YouTooOld WatchKit Extension/Models/StreamModel.swift" : {
+    "const-values" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/StreamModel.swiftconstvalues",
+    "dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/StreamModel.d",
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/StreamModel.dia",
+    "index-unit-output-path" : "/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/StreamModel.o",
+    "llvm-bc" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/StreamModel.bc",
+    "object" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/StreamModel.o",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/StreamModel.swiftdeps",
+    "swiftmodule" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/StreamModel~partial.swiftmodule"
+  },
+  "/Users/naza.prod/Documents/YouTooOld/YouTooOld/YouTooOld WatchKit Extension/Models/VideoModel.swift" : {
+    "const-values" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoModel.swiftconstvalues",
+    "dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoModel.d",
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoModel.dia",
+    "index-unit-output-path" : "/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoModel.o",
+    "llvm-bc" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoModel.bc",
+    "object" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoModel.o",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoModel.swiftdeps",
+    "swiftmodule" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/VideoModel~partial.swiftmodule"
+  },
+  "/Users/naza.prod/Documents/YouTooOld/YouTooOld/YouTooOld WatchKit Extension/Services/InstanceManager.swift" : {
+    "const-values" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/InstanceManager.swiftconstvalues",
+    "dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/InstanceManager.d",
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/InstanceManager.dia",
+    "index-unit-output-path" : "/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/InstanceManager.o",
+    "llvm-bc" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/InstanceManager.bc",
+    "object" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/InstanceManager.o",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/InstanceManager.swiftdeps",
+    "swiftmodule" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/InstanceManager~partial.swiftmodule"
+  },
+  "/Users/naza.prod/Documents/YouTooOld/YouTooOld/YouTooOld WatchKit Extension/Services/InvidiousAPI.swift" : {
+    "const-values" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/InvidiousAPI.swiftconstvalues",
+    "dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/InvidiousAPI.d",
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/InvidiousAPI.dia",
+    "index-unit-output-path" : "/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/InvidiousAPI.o",
+    "llvm-bc" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/InvidiousAPI.bc",
+    "object" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/InvidiousAPI.o",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/InvidiousAPI.swiftdeps",
+    "swiftmodule" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/InvidiousAPI~partial.swiftmodule"
+  },
+  "/Users/naza.prod/Documents/YouTooOld/YouTooOld/YouTooOld WatchKit Extension/Services/StreamResolver.swift" : {
+    "const-values" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/StreamResolver.swiftconstvalues",
+    "dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/StreamResolver.d",
+    "diagnostics" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/StreamResolver.dia",
+    "index-unit-output-path" : "/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/StreamResolver.o",
+    "llvm-bc" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/StreamResolver.bc",
+    "object" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/StreamResolver.o",
+    "swift-dependencies" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/StreamResolver.swiftdeps",
+    "swiftmodule" : "/Users/naza.prod/Documents/YouTooOld/YouTooOld/build/YouTooOld.build/Debug-watchos/YouTooOld WatchKit Extension.build/Objects-normal/armv7k/StreamResolver~partial.swiftmodule"
+  }
+}

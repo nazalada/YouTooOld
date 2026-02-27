@@ -1,0 +1,904 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		W1B101012F50D35600093106 /* YouTooOld Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = W1B100012F50D35600093106 /* YouTooOld Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		W1B101022F50D35600093106 /* YouTooOldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = W1B1010F2F50D35600093106 /* YouTooOldApp.swift */; };
+		W1B101032F50D35600093106 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = W1B101102F50D35600093106 /* ContentView.swift */; };
+		W1B101042F50D35600093106 /* SearchRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = W1B101112F50D35600093106 /* SearchRootView.swift */; };
+		W1B101052F50D35600093106 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = W1B101122F50D35600093106 /* VideoListView.swift */; };
+		W1B101062F50D35600093106 /* VideoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = W1B101132F50D35600093106 /* VideoRowView.swift */; };
+		W1B101072F50D35600093106 /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = W1B101142F50D35600093106 /* VideoDetailView.swift */; };
+		W1B101C02F50D35600093106 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = W1B101152F50D35600093106 /* PlayerView.swift */; };
+		W1B101092F50D35600093106 /* InlineMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = W1B101162F50D35600093106 /* InlineMovieView.swift */; };
+		W1B1010A2F50D35600093106 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = W1B101172F50D35600093106 /* SettingsView.swift */; };
+		W1B1010B2F50D35600093106 /* WatchAppContexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = W1B101182F50D35600093106 /* WatchAppContexts.swift */; };
+		W1B1010C2F50D35600093106 /* ThumbnailLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = W1B101192F50D35600093106 /* ThumbnailLoader.swift */; };
+		W1B1010D2F50D35600093106 /* MemoryManagerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = W1B1011A2F50D35600093106 /* MemoryManagerSwift.swift */; };
+		W1B1010E2F50D35600093106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = W1B101B02F50D35600093106 /* Assets.xcassets */; };
+		W1B101212F50D35600093106 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101202F50D35600093105 /* VideoModel.swift */; };
+		W1B101222F50D35600093106 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101222F50D35600093105 /* SearchResult.swift */; };
+		W1B101232F50D35600093106 /* StreamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101242F50D35600093105 /* StreamModel.swift */; };
+		W1B101242F50D35600093106 /* InvidiousAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101272F50D35600093105 /* InvidiousAPI.swift */; };
+		W1B101252F50D35600093106 /* StreamResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101292F50D35600093105 /* StreamResolver.swift */; };
+		W1B101262F50D35600093106 /* InstanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1012B2F50D35600093105 /* InstanceManager.swift */; };
+		W1B101272F50D35600093106 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1012D2F50D35600093105 /* Constants.swift */; };
+		W1B101282F50D35600093106 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1012F2F50D35600093105 /* Extensions.swift */; };
+		W1B101292F50D35600093106 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101352F50D35600093105 /* SettingsManager.swift */; };
+		I1A0012F50D35600093107 /* YouTooOldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = I1A00F2F50D35600093107 /* YouTooOldApp.swift */; };
+		I1A0022F50D35600093107 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = I1A0102F50D35600093107 /* ContentView.swift */; };
+		A1B100082F50D35600093105 /* YouTooOld WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A1B100022F50D35600093105 /* YouTooOld WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B1D109852F50D35800093105 /* YouTooOld WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A1B100012F50D35600093105 /* YouTooOld WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A1B101102F50D35600093105 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1010F2F50D35600093105 /* ExtensionDelegate.swift */; };
+		A1B101122F50D35600093105 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101112F50D35600093105 /* HomeController.swift */; };
+		A1B101142F50D35600093105 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101132F50D35600093105 /* SearchController.swift */; };
+		A1B101162F50D35600093105 /* VideoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101152F50D35600093105 /* VideoListController.swift */; };
+		A1B101182F50D35600093105 /* VideoDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101172F50D35600093105 /* VideoDetailController.swift */; };
+		A1B1011A2F50D35600093105 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101192F50D35600093105 /* PlayerController.swift */; };
+		A1B1011C2F50D35600093105 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1011B2F50D35600093105 /* SettingsController.swift */; };
+		A1B1011E2F50D35600093105 /* VideoRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1011D2F50D35600093105 /* VideoRowController.swift */; };
+		A1B101212F50D35600093105 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101202F50D35600093105 /* VideoModel.swift */; };
+		A1B101232F50D35600093105 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101222F50D35600093105 /* SearchResult.swift */; };
+		A1B101252F50D35600093105 /* StreamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101242F50D35600093105 /* StreamModel.swift */; };
+		A1B101282F50D35600093105 /* InvidiousAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101272F50D35600093105 /* InvidiousAPI.swift */; };
+		A1B1012A2F50D35600093105 /* StreamResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101292F50D35600093105 /* StreamResolver.swift */; };
+		A1B1012C2F50D35600093105 /* InstanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1012B2F50D35600093105 /* InstanceManager.swift */; };
+		A1B1012E2F50D35600093105 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1012D2F50D35600093105 /* Constants.swift */; };
+		A1B101302F50D35600093105 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1012F2F50D35600093105 /* Extensions.swift */; };
+		A1B101322F50D35600093105 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101312F50D35600093105 /* ImageLoader.swift */; };
+		A1B101342F50D35600093105 /* MemoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101332F50D35600093105 /* MemoryManager.swift */; };
+		A1B101362F50D35600093105 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101352F50D35600093105 /* SettingsManager.swift */; };
+		A1B101382F50D35600093105 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B101062F50D35600093105 /* Interface.storyboard */; };
+		A1B101392F50D35600093105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B101072F50D35600093105 /* Assets.xcassets */; };
+		A1B1013C2F50D35600093105 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1B1013E2F50D35600093105 /* Localizable.strings */; };
+		A1B101402F50D35600093105 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B101422F50D35600093105 /* WatchKit.framework */; };
+		A1B101412F50D35600093105 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B101432F50D35600093105 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1B100062F50D35600093105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D109652F50D35600093105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B100032F50D35600093105;
+			remoteInfo = "YouTooOld WatchKit App";
+		};
+		A1B100092F50D35600093105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D109652F50D35600093105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B100042F50D35600093105;
+			remoteInfo = "YouTooOld WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1B1000B2F50D35600093105 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A1B100082F50D35600093105 /* YouTooOld WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D109812F50D35800093105 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B1D109852F50D35800093105 /* YouTooOld WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B1D1096B2F50D35600093105 /* YouTooOld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTooOld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B100012F50D35600093105 /* YouTooOld WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YouTooOld WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B100022F50D35600093105 /* YouTooOld WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "YouTooOld WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B101062F50D35600093105 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		A1B101072F50D35600093105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1B101082F50D35600093105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B101042F50D35600093105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B1010F2F50D35600093105 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A1B101112F50D35600093105 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		A1B101132F50D35600093105 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		A1B101152F50D35600093105 /* VideoListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListController.swift; sourceTree = "<group>"; };
+		A1B101172F50D35600093105 /* VideoDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailController.swift; sourceTree = "<group>"; };
+		A1B101192F50D35600093105 /* PlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		A1B1011B2F50D35600093105 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		A1B1011D2F50D35600093105 /* VideoRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRowController.swift; sourceTree = "<group>"; };
+		A1B101202F50D35600093105 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YouTooOld WatchKit Extension/Models/VideoModel.swift"; sourceTree = SOURCE_ROOT; };
+		A1B101222F50D35600093105 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YouTooOld WatchKit Extension/Models/SearchResult.swift"; sourceTree = SOURCE_ROOT; };
+		A1B101242F50D35600093105 /* StreamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YouTooOld WatchKit Extension/Models/StreamModel.swift"; sourceTree = SOURCE_ROOT; };
+		A1B101272F50D35600093105 /* InvidiousAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YouTooOld WatchKit Extension/Services/InvidiousAPI.swift"; sourceTree = SOURCE_ROOT; };
+		A1B101292F50D35600093105 /* StreamResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YouTooOld WatchKit Extension/Services/StreamResolver.swift"; sourceTree = SOURCE_ROOT; };
+		A1B1012B2F50D35600093105 /* InstanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YouTooOld WatchKit Extension/Services/InstanceManager.swift"; sourceTree = SOURCE_ROOT; };
+		A1B1012D2F50D35600093105 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YouTooOld WatchKit Extension/Helpers/Constants.swift"; sourceTree = SOURCE_ROOT; };
+		A1B1012F2F50D35600093105 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YouTooOld WatchKit Extension/Helpers/Extensions.swift"; sourceTree = SOURCE_ROOT; };
+		A1B101312F50D35600093105 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		A1B101332F50D35600093105 /* MemoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryManager.swift; sourceTree = "<group>"; };
+		A1B101352F50D35600093105 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YouTooOld WatchKit Extension/Helpers/SettingsManager.swift"; sourceTree = SOURCE_ROOT; };
+		A1B1013E2F50D35600093105 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A1B101422F50D35600093105 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WatchKit.framework; sourceTree = SDKROOT; };
+		A1B101432F50D35600093105 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Foundation.framework; sourceTree = SDKROOT; };
+		W1B100012F50D35600093106 /* YouTooOld Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YouTooOld Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		W1B101B02F50D35600093106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		W1B101082F50D35600093106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		W1B1010F2F50D35600093106 /* YouTooOldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTooOldApp.swift; sourceTree = "<group>"; };
+		W1B101102F50D35600093106 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		W1B101112F50D35600093106 /* SearchRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRootView.swift; sourceTree = "<group>"; };
+		W1B101122F50D35600093106 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		W1B101132F50D35600093106 /* VideoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRowView.swift; sourceTree = "<group>"; };
+		W1B101142F50D35600093106 /* VideoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
+		W1B101152F50D35600093106 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		W1B101162F50D35600093106 /* InlineMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineMovieView.swift; sourceTree = "<group>"; };
+		W1B101172F50D35600093106 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		W1B101182F50D35600093106 /* WatchAppContexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchAppContexts.swift; sourceTree = "<group>"; };
+		W1B101192F50D35600093106 /* ThumbnailLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailLoader.swift; sourceTree = "<group>"; };
+		W1B1011A2F50D35600093106 /* MemoryManagerSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryManagerSwift.swift; sourceTree = "<group>"; };
+		I1A00F2F50D35600093107 /* YouTooOldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTooOldApp.swift; sourceTree = "<group>"; };
+		I1A0102F50D35600093107 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		I1A01102F50D35600093107 /* YouTooOld.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YouTooOld.entitlements; sourceTree = "<group>"; };
+		W1B101D02F50D35600093106 /* YouTooOld Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "YouTooOld Watch App.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B100132F50D35600093105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B101402F50D35600093105 /* WatchKit.framework in Frameworks */,
+				A1B101412F50D35600093105 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1D109642F50D35500093105 = {
+			isa = PBXGroup;
+			children = (
+				I1A00C2F50D35600093107 /* YouTooOld iOS */,
+				A1B1000C2F50D35600093105 /* YouTooOld WatchKit App */,
+				A1B1000D2F50D35600093105 /* YouTooOld WatchKit Extension */,
+				W1B1000C2F50D35600093106 /* YouTooOld Watch App */,
+				B1D1096C2F50D35600093105 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		I1A00C2F50D35600093107 /* YouTooOld iOS */ = {
+			isa = PBXGroup;
+			children = (
+				I1A00F2F50D35600093107 /* YouTooOldApp.swift */,
+				I1A0102F50D35600093107 /* ContentView.swift */,
+				I1A01102F50D35600093107 /* YouTooOld.entitlements */,
+			);
+			path = "YouTooOld iOS";
+			sourceTree = "<group>";
+		};
+		B1D1096C2F50D35600093105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1D1096B2F50D35600093105 /* YouTooOld.app */,
+				A1B100012F50D35600093105 /* YouTooOld WatchKit App.app */,
+				A1B100022F50D35600093105 /* YouTooOld WatchKit Extension.appex */,
+				W1B100012F50D35600093106 /* YouTooOld Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		W1B1000C2F50D35600093106 /* YouTooOld Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				W1B1010F2F50D35600093106 /* YouTooOldApp.swift */,
+				W1B101102F50D35600093106 /* ContentView.swift */,
+				W1B101112F50D35600093106 /* SearchRootView.swift */,
+				W1B101122F50D35600093106 /* VideoListView.swift */,
+				W1B101132F50D35600093106 /* VideoRowView.swift */,
+				W1B101142F50D35600093106 /* VideoDetailView.swift */,
+				W1B101152F50D35600093106 /* PlayerView.swift */,
+				W1B101162F50D35600093106 /* InlineMovieView.swift */,
+				W1B101172F50D35600093106 /* SettingsView.swift */,
+				W1B101182F50D35600093106 /* WatchAppContexts.swift */,
+				W1B101192F50D35600093106 /* ThumbnailLoader.swift */,
+				W1B1011A2F50D35600093106 /* MemoryManagerSwift.swift */,
+				W1B101B02F50D35600093106 /* Assets.xcassets */,
+				W1B101082F50D35600093106 /* Info.plist */,
+				W1B101D02F50D35600093106 /* YouTooOld Watch App.entitlements */,
+			);
+			path = "YouTooOld Watch App";
+			sourceTree = "<group>";
+		};
+		A1B1000C2F50D35600093105 /* YouTooOld WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A1B101062F50D35600093105 /* Interface.storyboard */,
+				A1B101072F50D35600093105 /* Assets.xcassets */,
+				A1B101082F50D35600093105 /* Info.plist */,
+			);
+			path = "YouTooOld WatchKit App";
+			sourceTree = "<group>";
+		};
+		A1B1000D2F50D35600093105 /* YouTooOld WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A1B101042F50D35600093105 /* Info.plist */,
+				A1B1010F2F50D35600093105 /* ExtensionDelegate.swift */,
+				A1B1000E2F50D35600093105 /* Controllers */,
+				A1B1000F2F50D35600093105 /* Models */,
+				A1B100102F50D35600093105 /* Services */,
+				A1B100112F50D35600093105 /* Helpers */,
+				A1B100122F50D35600093105 /* Resources */,
+			);
+			path = "YouTooOld WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A1B1000E2F50D35600093105 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1B101112F50D35600093105 /* HomeController.swift */,
+				A1B101132F50D35600093105 /* SearchController.swift */,
+				A1B101152F50D35600093105 /* VideoListController.swift */,
+				A1B101172F50D35600093105 /* VideoDetailController.swift */,
+				A1B101192F50D35600093105 /* PlayerController.swift */,
+				A1B1011B2F50D35600093105 /* SettingsController.swift */,
+				A1B1011D2F50D35600093105 /* VideoRowController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A1B1000F2F50D35600093105 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1B101202F50D35600093105 /* VideoModel.swift */,
+				A1B101222F50D35600093105 /* SearchResult.swift */,
+				A1B101242F50D35600093105 /* StreamModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1B100102F50D35600093105 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A1B101272F50D35600093105 /* InvidiousAPI.swift */,
+				A1B101292F50D35600093105 /* StreamResolver.swift */,
+				A1B1012B2F50D35600093105 /* InstanceManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A1B100112F50D35600093105 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A1B1012D2F50D35600093105 /* Constants.swift */,
+				A1B1012F2F50D35600093105 /* Extensions.swift */,
+				A1B101312F50D35600093105 /* ImageLoader.swift */,
+				A1B101332F50D35600093105 /* MemoryManager.swift */,
+				A1B101352F50D35600093105 /* SettingsManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A1B100122F50D35600093105 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1B1013E2F50D35600093105 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1D1096A2F50D35600093105 /* YouTooOld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D109822F50D35800093105 /* Build configuration list for PBXNativeTarget "YouTooOld" */;
+			buildPhases = (
+				I1A0452F50D35600093107 /* Sources */,
+				B1D109692F50D35600093105 /* Resources */,
+				B1D109812F50D35800093105 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B100072F50D35600093105 /* PBXTargetDependency */,
+			);
+			name = YouTooOld;
+			packageProductDependencies = (
+			);
+			productName = YouTooOld;
+			productReference = B1D1096B2F50D35600093105 /* YouTooOld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1B100032F50D35600093105 /* YouTooOld WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B100142F50D35600093105 /* Build configuration list for PBXNativeTarget "YouTooOld WatchKit App" */;
+			buildPhases = (
+				A1B101442F50D35600093105 /* Resources */,
+				A1B1000B2F50D35600093105 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B1000A2F50D35600093105 /* PBXTargetDependency */,
+			);
+			name = "YouTooOld WatchKit App";
+			packageProductDependencies = (
+			);
+			productName = "YouTooOld WatchKit App";
+			productReference = A1B100012F50D35600093105 /* YouTooOld WatchKit App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1B100042F50D35600093105 /* YouTooOld WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B100152F50D35600093105 /* Build configuration list for PBXNativeTarget "YouTooOld WatchKit Extension" */;
+			buildPhases = (
+				A1B101452F50D35600093105 /* Sources */,
+				A1B100132F50D35600093105 /* Frameworks */,
+				A1B101462F50D35600093105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YouTooOld WatchKit Extension";
+			packageProductDependencies = (
+			);
+			productName = "YouTooOld WatchKit Extension";
+			productReference = A1B100022F50D35600093105 /* YouTooOld WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		W1B100032F50D35600093106 /* YouTooOld Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = W1B100142F50D35600093106 /* Build configuration list for PBXNativeTarget "YouTooOld Watch App" */;
+			buildPhases = (
+				W1B101452F50D35600093106 /* Sources */,
+				W1B101462F50D35600093106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YouTooOld Watch App";
+			packageProductDependencies = (
+			);
+			productName = "YouTooOld Watch App";
+			productReference = W1B100012F50D35600093106 /* YouTooOld Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1D109652F50D35600093105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					B1D1096A2F50D35600093105 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					A1B100032F50D35600093105 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					A1B100042F50D35600093105 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					W1B100032F50D35600093106 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = B1D109682F50D35600093105 /* Build configuration list for PBXProject "YouTooOld" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1D109642F50D35500093105;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B1D1096C2F50D35600093105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1D1096A2F50D35600093105 /* YouTooOld */,
+				A1B100032F50D35600093105 /* YouTooOld WatchKit App */,
+				A1B100042F50D35600093105 /* YouTooOld WatchKit Extension */,
+				W1B100032F50D35600093106 /* YouTooOld Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B101442F50D35600093105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B101382F50D35600093105 /* Interface.storyboard in Resources */,
+				A1B101392F50D35600093105 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B101462F50D35600093105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B1013C2F50D35600093105 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D109692F50D35600093105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		W1B101462F50D35600093106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				W1B1010E2F50D35600093106 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B101452F50D35600093105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B101102F50D35600093105 /* ExtensionDelegate.swift in Sources */,
+				A1B101122F50D35600093105 /* HomeController.swift in Sources */,
+				A1B101142F50D35600093105 /* SearchController.swift in Sources */,
+				A1B101162F50D35600093105 /* VideoListController.swift in Sources */,
+				A1B101182F50D35600093105 /* VideoDetailController.swift in Sources */,
+				A1B1011A2F50D35600093105 /* PlayerController.swift in Sources */,
+				A1B1011C2F50D35600093105 /* SettingsController.swift in Sources */,
+				A1B1011E2F50D35600093105 /* VideoRowController.swift in Sources */,
+				A1B101212F50D35600093105 /* VideoModel.swift in Sources */,
+				A1B101232F50D35600093105 /* SearchResult.swift in Sources */,
+				A1B101252F50D35600093105 /* StreamModel.swift in Sources */,
+				A1B101282F50D35600093105 /* InvidiousAPI.swift in Sources */,
+				A1B1012A2F50D35600093105 /* StreamResolver.swift in Sources */,
+				A1B1012C2F50D35600093105 /* InstanceManager.swift in Sources */,
+				A1B1012E2F50D35600093105 /* Constants.swift in Sources */,
+				A1B101302F50D35600093105 /* Extensions.swift in Sources */,
+				A1B101322F50D35600093105 /* ImageLoader.swift in Sources */,
+				A1B101342F50D35600093105 /* MemoryManager.swift in Sources */,
+				A1B101362F50D35600093105 /* SettingsManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		I1A0452F50D35600093107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				I1A0012F50D35600093107 /* YouTooOldApp.swift in Sources */,
+				I1A0022F50D35600093107 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		W1B101452F50D35600093106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				W1B101022F50D35600093106 /* YouTooOldApp.swift in Sources */,
+				W1B101032F50D35600093106 /* ContentView.swift in Sources */,
+				W1B101042F50D35600093106 /* SearchRootView.swift in Sources */,
+				W1B101052F50D35600093106 /* VideoListView.swift in Sources */,
+				W1B101062F50D35600093106 /* VideoRowView.swift in Sources */,
+				W1B101072F50D35600093106 /* VideoDetailView.swift in Sources */,
+				W1B101C02F50D35600093106 /* PlayerView.swift in Sources */,
+				W1B101092F50D35600093106 /* InlineMovieView.swift in Sources */,
+				W1B1010A2F50D35600093106 /* SettingsView.swift in Sources */,
+				W1B1010B2F50D35600093106 /* WatchAppContexts.swift in Sources */,
+				W1B1010C2F50D35600093106 /* ThumbnailLoader.swift in Sources */,
+				W1B1010D2F50D35600093106 /* MemoryManagerSwift.swift in Sources */,
+				W1B101212F50D35600093106 /* VideoModel.swift in Sources */,
+				W1B101222F50D35600093106 /* SearchResult.swift in Sources */,
+				W1B101232F50D35600093106 /* StreamModel.swift in Sources */,
+				W1B101242F50D35600093106 /* InvidiousAPI.swift in Sources */,
+				W1B101252F50D35600093106 /* StreamResolver.swift in Sources */,
+				W1B101262F50D35600093106 /* InstanceManager.swift in Sources */,
+				W1B101272F50D35600093106 /* Constants.swift in Sources */,
+				W1B101282F50D35600093106 /* Extensions.swift in Sources */,
+				W1B101292F50D35600093106 /* SettingsManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1B100072F50D35600093105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B100032F50D35600093105 /* YouTooOld WatchKit App */;
+			targetProxy = A1B100062F50D35600093105 /* PBXContainerItemProxy */;
+		};
+		A1B1000A2F50D35600093105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B100042F50D35600093105 /* YouTooOld WatchKit Extension */;
+			targetProxy = A1B100092F50D35600093105 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B1D1097C2F50D35800093105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2PJH638Q54;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1D1097D2F50D35800093105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2PJH638Q54;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A1B100162F50D35600093105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2PJH638Q54;
+				INFOPLIST_FILE = "YouTooOld WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nazar-Ladyka.YouTooOld.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		A1B100172F50D35600093105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2PJH638Q54;
+				INFOPLIST_FILE = "YouTooOld WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nazar-Ladyka.YouTooOld.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		A1B100182F50D35600093105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2PJH638Q54;
+				INFOPLIST_FILE = "YouTooOld WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nazar-Ladyka.YouTooOld.watchkitextension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		A1B100192F50D35600093105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2PJH638Q54;
+				INFOPLIST_FILE = "YouTooOld WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nazar-Ladyka.YouTooOld.watchkitextension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		B1D109832F50D35800093105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "YouTooOld iOS/YouTooOld.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2PJH638Q54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = YouTooOld;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nazar-Ladyka.YouTooOld";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B1D109842F50D35800093105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "YouTooOld iOS/YouTooOld.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2PJH638Q54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = YouTooOld;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nazar-Ladyka.YouTooOld";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		W1B100162F50D35600093106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "YouTooOld Watch App/YouTooOld Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2PJH638Q54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YouTooOld Watch App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nazar-Ladyka.YouTooOld.watchapp";
+				PRODUCT_NAME = "YouTooOld Watch App";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		W1B100172F50D35600093106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "YouTooOld Watch App/YouTooOld Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2PJH638Q54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YouTooOld Watch App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nazar-Ladyka.YouTooOld.watchapp";
+				PRODUCT_NAME = "YouTooOld Watch App";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1D109682F50D35600093105 /* Build configuration list for PBXProject "YouTooOld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D1097C2F50D35800093105 /* Debug */,
+				B1D1097D2F50D35800093105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B100142F50D35600093105 /* Build configuration list for PBXNativeTarget "YouTooOld WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B100162F50D35600093105 /* Debug */,
+				A1B100172F50D35600093105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B100152F50D35600093105 /* Build configuration list for PBXNativeTarget "YouTooOld WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B100182F50D35600093105 /* Debug */,
+				A1B100192F50D35600093105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		W1B100142F50D35600093106 /* Build configuration list for PBXNativeTarget "YouTooOld Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				W1B100162F50D35600093106 /* Debug */,
+				W1B100172F50D35600093106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D109822F50D35800093105 /* Build configuration list for PBXNativeTarget "YouTooOld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D109832F50D35800093105 /* Debug */,
+				B1D109842F50D35800093105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1D109652F50D35600093105 /* Project object */;
+}
