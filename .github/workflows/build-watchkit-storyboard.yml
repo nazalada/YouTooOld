@@ -57,6 +57,15 @@ jobs:
           sed -i.bak 's/objectVersion = 77/objectVersion = 56/' "${{ steps.project.outputs.pbxproj }}"
           rm -f "${{ steps.project.outputs.pbxproj }}.bak"
 
+      - name: Diagnose storyboard compile (ibtool)
+        run: |
+          STORYBOARD="${{ steps.project.outputs.watchkit_app_dir }}/Interface.storyboard"
+          OUT="$(mktemp -d)"
+          echo "::group::ibtool compile Interface.storyboard"
+          ibtool --compile "$OUT" "$STORYBOARD" 2>&1 || true
+          echo "::endgroup::"
+          rm -rf "$OUT"
+
       - name: Build WatchKit App (compiles storyboard)
         env:
           PROJECT_DIR: ${{ steps.project.outputs.project_dir }}
@@ -64,6 +73,7 @@ jobs:
         run: |
           cd "$PROJECT_DIR"
           XCODEPROJ=$(dirname "$PBXPROJ")
+          set -o pipefail
           xcodebuild \
             -project "$(basename "$XCODEPROJ")" \
             -scheme YouTooOld \
@@ -73,7 +83,16 @@ jobs:
             CODE_SIGN_IDENTITY="" \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGNING_ALLOWED=NO \
-            build
+            build 2>&1 | tee ../build.log || true
+          BUILD_EXIT=${PIPESTATUS[0]}
+          if [ "$BUILD_EXIT" -ne 0 ]; then
+            echo "::group::Build log (errors and last 120 lines)"
+            grep -i "error:" ../build.log || true
+            echo "---"
+            tail -120 ../build.log
+            echo "::endgroup::"
+            exit "$BUILD_EXIT"
+          fi
 
       - name: Find and extract Interface.storyboardc
         run: |
