@@ -31,14 +31,36 @@ jobs:
       - name: Show Xcode version
         run: xcodebuild -version
 
+      - name: Find project paths
+        id: project
+        run: |
+          PBXPROJ=$(find . -name "project.pbxproj" -not -path "*/build/*" -not -path "*/.build/*" 2>/dev/null | head -1)
+          if [ -z "$PBXPROJ" ]; then
+            echo "::error::project.pbxproj not found in repo"
+            find . -name "*.pbxproj" 2>/dev/null || true
+            exit 1
+          fi
+          PBXPROJ="${PBXPROJ#./}"
+          echo "pbxproj=$PBXPROJ" >> $GITHUB_OUTPUT
+          PROJECT_DIR=$(dirname "$(dirname "$PBXPROJ")")
+          echo "project_dir=$PROJECT_DIR" >> $GITHUB_OUTPUT
+          WATCHKIT_APP_DIR=$(find . -type d -name "YouTooOld WatchKit App" -not -path "*/build/*" 2>/dev/null | head -1)
+          WATCHKIT_APP_DIR="${WATCHKIT_APP_DIR#./}"
+          echo "watchkit_app_dir=$WATCHKIT_APP_DIR" >> $GITHUB_OUTPUT
+          echo "Found pbxproj: $PBXPROJ, project_dir: $PROJECT_DIR, watchkit_dir: $WATCHKIT_APP_DIR"
+
       - name: Revert project to compile storyboard (for this CI run)
-        run: python3 scripts/revert-to-storyboard.py YouTooOld/YouTooOld.xcodeproj/project.pbxproj
+        run: python3 scripts/revert-to-storyboard.py "${{ steps.project.outputs.pbxproj }}"
 
       - name: Build WatchKit App (compiles storyboard)
+        env:
+          PROJECT_DIR: ${{ steps.project.outputs.project_dir }}
+          PBXPROJ: ${{ steps.project.outputs.pbxproj }}
         run: |
-          cd YouTooOld
+          cd "$PROJECT_DIR"
+          XCODEPROJ=$(dirname "$PBXPROJ")
           xcodebuild \
-            -project YouTooOld.xcodeproj \
+            -project "$(basename "$XCODEPROJ")" \
             -scheme YouTooOld \
             -destination 'generic/platform=iOS' \
             -configuration Debug \
@@ -58,17 +80,18 @@ jobs:
             ls -la "$APP"
             exit 1
           fi
-          rm -rf YouTooOld/YouTooOld\ WatchKit\ App/Interface.storyboardc
-          cp -R "$APP/Interface.storyboardc" "YouTooOld/YouTooOld WatchKit App/"
-          echo "Copied Interface.storyboardc into repo"
+          WATCHKIT_DIR="${{ steps.project.outputs.watchkit_app_dir }}"
+          rm -rf "$WATCHKIT_DIR/Interface.storyboardc"
+          cp -R "$APP/Interface.storyboardc" "$WATCHKIT_DIR/"
+          echo "Copied Interface.storyboardc into $WATCHKIT_DIR"
 
       - name: Update project to use pre-compiled storyboardc
-        run: python3 scripts/switch-to-storyboardc.py YouTooOld/YouTooOld.xcodeproj/project.pbxproj
+        run: python3 scripts/switch-to-storyboardc.py "${{ steps.project.outputs.pbxproj }}"
 
       - name: Upload storyboardc and project (download and commit locally)
         uses: actions/upload-artifact@v4
         with:
           name: watchkit-storyboardc
           path: |
-            YouTooOld/YouTooOld WatchKit App/Interface.storyboardc
-            YouTooOld/YouTooOld.xcodeproj/project.pbxproj
+            ${{ steps.project.outputs.watchkit_app_dir }}/Interface.storyboardc
+            ${{ steps.project.outputs.pbxproj }}
