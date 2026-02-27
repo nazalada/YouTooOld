@@ -96,17 +96,15 @@ jobs:
 
       - name: Find and extract Interface.storyboardc
         run: |
-          APP=$(find ./derived_data -name "YouTooOld WatchKit App.app" -type d -path "*/Build/Products/*" 2>/dev/null | head -1)
-          if [ -z "$APP" ]; then
-            echo "::error::YouTooOld WatchKit App.app not found in build products"
-            find ./derived_data -name "*.app" -type d 2>/dev/null || true
+          STORYBOARDC=$(find ./derived_data -type d -path "*/YouTooOld WatchKit App.app/Interface.storyboardc" 2>/dev/null | head -1)
+          if [ -z "$STORYBOARDC" ]; then
+            echo "::error::Interface.storyboardc not found in any YouTooOld WatchKit App.app"
+            find ./derived_data -name "*.app" -type d 2>/dev/null | head -20
+            echo "--- Contents of Build/Products ---"
+            find ./derived_data -path "*/Build/Products/*" -name "*.app" -type d 2>/dev/null | while read a; do echo "$a:"; ls "$a" 2>/dev/null || true; done
             exit 1
           fi
-          if [ ! -d "$APP/Interface.storyboardc" ]; then
-            echo "::error::Interface.storyboardc not found inside the app"
-            ls -la "$APP"
-            exit 1
-          fi
+          APP=$(dirname "$STORYBOARDC")
           WATCHKIT_DIR="${{ steps.project.outputs.watchkit_app_dir }}"
           rm -rf "$WATCHKIT_DIR/Interface.storyboardc"
           cp -R "$APP/Interface.storyboardc" "$WATCHKIT_DIR/"
