@@ -65,15 +65,10 @@ jobs:
       - name: Update project to use pre-compiled storyboardc
         run: python3 scripts/switch-to-storyboardc.py YouTooOld/YouTooOld.xcodeproj/project.pbxproj
 
-      - name: Commit and push storyboardc
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "YouTooOld/YouTooOld WatchKit App/Interface.storyboardc"
-          git add "YouTooOld/YouTooOld.xcodeproj/project.pbxproj"
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: add pre-compiled WatchKit storyboard for Xcode 26 (watchOS 8)"
-            git push origin HEAD:refs/heads/${{ github.ref_name }}
-          fi
+      - name: Upload storyboardc and project (download and commit locally)
+        uses: actions/upload-artifact@v4
+        with:
+          name: watchkit-storyboardc
+          path: |
+            YouTooOld/YouTooOld WatchKit App/Interface.storyboardc
+            YouTooOld/YouTooOld.xcodeproj/project.pbxproj
