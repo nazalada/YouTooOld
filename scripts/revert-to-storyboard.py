@@ -14,6 +14,8 @@ def main():
         print("Project already compiles storyboard, skipping revert.")
         return
 
+    original = content
+
     # 1. Remove PBXFileReference for Interface.storyboardc
     content = content.replace(
         '\n\t\tA1B101472F50D35600093105 /* Interface.storyboardc */ = {isa = PBXFileReference; lastKnownFileType = folder.storyboardc; path = Interface.storyboardc; sourceTree = "<group>"; };',
@@ -39,6 +41,10 @@ def main():
         'A1B101382F50D35600093105 /* Interface.storyboard in Resources */,',
         1
     )
+
+    if content == original:
+        print("Error: project.pbxproj was not modified (revert replacements did not match).", file=sys.stderr)
+        sys.exit(1)
 
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)

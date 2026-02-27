@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Update project.pbxproj to use Interface.storyboardc instead of compiling Interface.storyboard."""
 import sys
-import re
 
 def main():
     if len(sys.argv) < 2:
@@ -15,6 +14,8 @@ def main():
     if "A1B101472F50D35600093105" in content:
         print("Project already uses Interface.storyboardc, skipping.")
         return
+
+    original = content
 
     # 1. Add PBXFileReference for Interface.storyboardc (after Interface.storyboard line)
     content = content.replace(
@@ -42,6 +43,13 @@ def main():
         'A1B101482F50D35600093105 /* Interface.storyboardc in Resources */,',
         1
     )
+
+    if content == original:
+        print("Error: project.pbxproj was not modified (replacements did not match).", file=sys.stderr)
+        sys.exit(1)
+    if "A1B101472F50D35600093105" not in content:
+        print("Error: storyboardc ref was not added.", file=sys.stderr)
+        sys.exit(1)
 
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)

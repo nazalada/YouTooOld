@@ -15,6 +15,8 @@ on:
 jobs:
   build-storyboard:
     runs-on: macos-14
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -73,5 +75,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: add pre-compiled WatchKit storyboard for Xcode 26 (watchOS 8)"
-            git push
+            git push origin HEAD:refs/heads/${{ github.ref_name }}
           fi
