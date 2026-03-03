@@ -38,7 +38,7 @@ jobs:
       - name: Build WatchKit App (produces Interface.storyboardc in app bundle)
         run: |
           xcodebuild -project YouTooOld.xcodeproj \
-            -scheme "YouTooOld WatchKit App" \
+            -target "YouTooOld WatchKit App" \
             -configuration Debug \
             -sdk watchos \
             -destination 'generic/platform=watchOS' \
