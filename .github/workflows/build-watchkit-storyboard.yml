@@ -17,6 +17,9 @@ jobs:
     runs-on: macos-14
     permissions:
       contents: write
+    defaults:
+      run:
+        working-directory: YouTooOld
 
     steps:
       - name: Checkout
