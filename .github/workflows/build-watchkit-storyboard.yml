@@ -34,6 +34,8 @@ jobs:
           sed -i '' 's/objectVersion = 77;/objectVersion = 56;/' "$PBX"
           sed -i '' 's|A1B101512F50D35600093105 /\* Interface.storyboardc in Resources \*/|A1B101382F50D35600093105 /* Interface.storyboard in Resources */|g' "$PBX"
           sed -i '' 's|lastKnownFileType = folder; path = Interface.storyboardc|lastKnownFileType = file.storyboard; path = Interface.storyboard|g' "$PBX"
+          #So Xcode 15 ibtool accepts the storyboard (it rejects toolsVersion 21701)
+          sed -i '' 's/toolsVersion="21701"/toolsVersion="20200"/' "YouTooOld WatchKit App/Interface.storyboard"
 
       - name: Build WatchKit App (produces Interface.storyboardc in app bundle)
         run: |
