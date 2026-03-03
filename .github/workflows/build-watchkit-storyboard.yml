@@ -30,9 +30,9 @@ jobs:
       - name: Prepare project for build (use storyboard so Xcode 15 compiles it)
         run: |
           PBX="YouTooOld.xcodeproj/project.pbxproj"
-          # If project already uses storyboardc, temporarily switch to storyboard for this build
+          # Let Xcode 15 open the project (format 77 is Xcode 26 only)
+          sed -i '' 's/objectVersion = 77;/objectVersion = 56;/' "$PBX"
           sed -i '' 's|A1B101512F50D35600093105 /\* Interface.storyboardc in Resources \*/|A1B101382F50D35600093105 /* Interface.storyboard in Resources */|g' "$PBX"
-          sed -i '' 's|A1B101502F50D35600093105 /\* Interface.storyboardc \*/|A1B101062F50D35600093105 /* Interface.storyboard */|g' "$PBX"
           sed -i '' 's|lastKnownFileType = folder; path = Interface.storyboardc|lastKnownFileType = file.storyboard; path = Interface.storyboard|g' "$PBX"
 
       - name: Build WatchKit App (produces Interface.storyboardc in app bundle)
@@ -61,6 +61,8 @@ jobs:
           sed -i '' 's|A1B101382F50D35600093105 /\* Interface.storyboard in Resources \*/|A1B101512F50D35600093105 /* Interface.storyboardc in Resources */|g' "$PBX"
           sed -i '' 's|A1B101062F50D35600093105 /\* Interface.storyboard \*/|A1B101502F50D35600093105 /* Interface.storyboardc */|g' "$PBX"
           sed -i '' 's|lastKnownFileType = file.storyboard; path = Interface.storyboard|lastKnownFileType = folder; path = Interface.storyboardc|g' "$PBX"
+          # Restore project format for Xcode 26
+          sed -i '' 's/objectVersion = 56;/objectVersion = 77;/' "$PBX"
 
       - name: Commit and push Interface.storyboardc
         run: |
