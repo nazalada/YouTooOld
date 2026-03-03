@@ -53,7 +53,7 @@
 		A1B101322F50D35600093105 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101312F50D35600093105 /* ImageLoader.swift */; };
 		A1B101342F50D35600093105 /* MemoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101332F50D35600093105 /* MemoryManager.swift */; };
 		A1B101362F50D35600093105 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B101352F50D35600093105 /* SettingsManager.swift */; };
-		A1B101382F50D35600093105 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B101062F50D35600093105 /* Interface.storyboard */; };
+		A1B101512F50D35600093105 /* Interface.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = A1B101502F50D35600093105 /* Interface.storyboardc */; };
 		A1B101392F50D35600093105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B101072F50D35600093105 /* Assets.xcassets */; };
 		A1B1013C2F50D35600093105 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1B1013E2F50D35600093105 /* Localizable.strings */; };
 		A1B101402F50D35600093105 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B101422F50D35600093105 /* WatchKit.framework */; };
@@ -106,7 +106,7 @@
 		B1D1096B2F50D35600093105 /* YouTooOld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTooOld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B100012F50D35600093105 /* YouTooOld WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YouTooOld WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B100022F50D35600093105 /* YouTooOld WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "YouTooOld WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1B101062F50D35600093105 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		A1B101502F50D35600093105 /* Interface.storyboardc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Interface.storyboardc; sourceTree = "<group>"; };
 		A1B101072F50D35600093105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1B101082F50D35600093105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1B101042F50D35600093105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -223,7 +223,7 @@
 		A1B1000C2F50D35600093105 /* YouTooOld WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				A1B101062F50D35600093105 /* Interface.storyboard */,
+				A1B101502F50D35600093105 /* Interface.storyboardc */,
 				A1B101072F50D35600093105 /* Assets.xcassets */,
 				A1B101082F50D35600093105 /* Info.plist */,
 			);
@@ -428,7 +428,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B101382F50D35600093105 /* Interface.storyboard in Resources */,
+				A1B101512F50D35600093105 /* Interface.storyboardc in Resources */,
 				A1B101392F50D35600093105 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
