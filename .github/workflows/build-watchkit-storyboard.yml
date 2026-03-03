@@ -43,6 +43,8 @@ jobs:
             -sdk watchos \
             -destination 'generic/platform=watchOS' \
             -derivedDataPath build \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
             build
 
       - name: Copy Interface.storyboardc to source tree
