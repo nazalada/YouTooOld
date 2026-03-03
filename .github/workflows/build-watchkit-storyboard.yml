@@ -14,7 +14,7 @@ on:
 
 jobs:
   build-storyboard:
-    runs-on: macos-14
+    runs-on: macos-12
     permissions:
       contents: write
     defaults:
